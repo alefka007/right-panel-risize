@@ -1,0 +1,55 @@
+.rightPanel {
+  width: 360px;
+}
+
+.rightPanelActive {
+  display: flex;
+  background: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.rightPanelButtons {
+  display: flex;
+  gap: 4px;
+  width: 338px;
+  height: 36px;
+  top: 19px;
+  right: 8px;
+  position: absolute;
+}
+
+.rightPanelButtons button {
+  height: 36px;
+  outline: none;
+  border: none;
+  background:#0099db;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.rightPanelComponents {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightComponent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.component1 {
+  background: #feae34;
+}
+
+.component2 {
+  background: #3e8948;
+}
+
+.component3 {
+  background: #f6757a;
+}
